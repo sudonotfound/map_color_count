@@ -14,13 +14,6 @@ coffee_img = cv2.imread(dir + "4color_map.png")
 
 
 
-
-
-
-
-
-
-
 # 中央値フィルターを使ったぼかしの適用
 coffee_blur = cv2.medianBlur(coffee_img ,7)
 display(coffee_blur)
